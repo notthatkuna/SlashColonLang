@@ -8,15 +8,15 @@ The correct usage for the main.py file is:
 
 **python3 <main.py> <grabfrom.sc> [--options]**
 
-- /
+- ``/``
   - Add 1 (one) integer to the current stack value
-- ;
+- ``;``
   - Subtract 1 (one) integer from the current stack value
-- ]
+- ``]``
   - Add 10 (ten) integers to the current stack value
-- *
+- ``*``
   - Multiply the current stack value by 2 (two)
-- -
+- ``-``
   - Break the current stack and save it into script memory, and also create and move into a new stack position
 
 After the script has executed, it will print out all the stack values in a list. If you used the optional argument ``--ascii`` then all values will be converted to their ascii partners.
